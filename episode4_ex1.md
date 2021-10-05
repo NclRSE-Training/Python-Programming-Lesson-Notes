@@ -1,5 +1,5 @@
 
-## Slicing From the End
+## 4.1 Slicing From the End
 
 Use slicing to access only the last four characters of a string or entries of a list.
 
