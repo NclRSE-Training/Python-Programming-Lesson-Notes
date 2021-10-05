@@ -10,3 +10,6 @@ Can you write a loop that would do the same? You may want to use `range`
 
 <img src="fig/ex4.1.PNG">
 
+</details>
+
+[Episode 4 exercise 2](episode4_ex2.md)
