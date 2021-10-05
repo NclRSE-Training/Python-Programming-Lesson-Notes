@@ -19,10 +19,10 @@ Using ```range```, write a loop that uses ```range``` to print the first 3 natur
 Solution
 </summary>
 
-<code>
+<pre>
 for number in range(1, 4):
   print(number)
-</code>
+</pre>
 
 </details>
 
