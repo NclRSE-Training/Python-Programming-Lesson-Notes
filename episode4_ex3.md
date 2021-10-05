@@ -23,15 +23,15 @@ Solution
 
 The multiplication operator ```*``` used on a list replicates elements of the list and concatenates them together:
 <br/>
-<code>
+<pre>
 [2, 4, 6, 8, 10, 2, 4, 6, 8, 10]
-</code>
+</pre>
 <br/>
 It’s equivalent to:
 <br/>
-<code>
+<pre>
 counts + counts
-</code>
+</pre>
 </details>
 
 [Episode 5 exercise 1](episode5_ex1.md)
