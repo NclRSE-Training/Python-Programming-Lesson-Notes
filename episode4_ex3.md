@@ -32,6 +32,6 @@ It’s equivalent to:
 <code>
 counts + counts
 </code>
-<details>
+</details>
 
 [Episode 5 exercise 1](episode5_ex1.md)
