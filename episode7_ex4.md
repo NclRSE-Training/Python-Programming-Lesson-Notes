@@ -40,7 +40,7 @@ else:
 print(abs(a - b) <= 0.1 * abs(b))
 </pre>
 
-This works because the Booleans True and False have string representations which can be printed.
+This works because the Booleans ```True``` and ```False``` have string representations which can be printed.
 </details>
     
 [Episode 7 exercise 5](episode7_ex5.md)
