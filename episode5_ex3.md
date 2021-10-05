@@ -1,28 +1,30 @@
-## Exercise 5.3 Non-continuous slices
-You can include a third argument inside the square brackets to set the step size and only take every nth element from the list.
+
+## 5.3 Computing Powers With Loops
+
+Exponentiation is built into Python:
 
 ```python
-primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
-subset = primes[0:12:3]
-print('subset', subset)
+print(5 ** 3)
 ```
 
-```python
-subset [2, 7, 17, 29]
+```console
+125
 ```
 
-How would you get every other element, starting from the second element? i.e.  `subset [3, 7, 13, 19, 29, 37]`
+Write a loop that calculates the same result as ```5 ** 3``` using multiplication (and without exponentiation).
 
 <details>
-<summary>Solution
-</summary>
-primes[1::2]
+  <summary>
+Solution
+  </summary>
+
+<pre>
+result = 1
+for number in range(0, 3):
+  result = result * 5
+print(result)
+</pre>
+  
 </details>
 
-<br>
-<br>
-<br>
-<br>
-
-![comparisons](fig/comparisons.PNG)
-
+[Episode 5 exercise 4](episode5_ex4.md)
