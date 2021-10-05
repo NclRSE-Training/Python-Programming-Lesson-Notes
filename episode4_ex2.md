@@ -44,37 +44,17 @@ Solution
   </summary>
 
 To obtain every other character you need to provide a slice with the step size of 2:
-
+<br/>
+  <code>
 beatles[0:35:2]
-
+  </code>
+<br/>
 You can also leave out the beginning and end of the slice to take the whole string and provide only the step argument to go every second element:
-
-beatles[::2]
-
-If you want to take a slice from the beginning of a sequence, you can omit the first index in the range:
-
-date = 'Monday 4 January 2016'
-day = date[0:6]
-print('Using 0 to begin range:', day)
-day = date[:6]
-print('Omitting beginning index:', day)
-
-Using 0 to begin range: Monday
-Omitting beginning index: Monday
-
-And similarly, you can omit the ending index in the range to take a slice to the very end of the sequence:
-
-months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
-sond = months[8:12]
-print('With known last position:', sond)
-sond = months[8:len(months)]
-print('Using len() to get last entry:', sond)
-sond = months[8:]
-print('Omitting ending index:', sond)
-
-With known last position: ['sep', 'oct', 'nov', 'dec']
-Using len() to get last entry: ['sep', 'oct', 'nov', 'dec']
-Omitting ending index: ['sep', 'oct', 'nov', 'dec']
+<br/>
+<code>
+  beatles[::2]
+  </code>
+<br/>
 
   
   </details>
