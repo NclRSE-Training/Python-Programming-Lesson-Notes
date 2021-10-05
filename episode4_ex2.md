@@ -45,15 +45,15 @@ Solution
 
 To obtain every other character you need to provide a slice with the step size of 2:
 <br/>
-  <code>
+  <pre>
 beatles[0:35:2]
-  </code>
+  </pre>
 <br/>
 You can also leave out the beginning and end of the slice to take the whole string and provide only the step argument to go every second element:
 <br/>
-<code>
+<pre>
   beatles[::2]
-  </code>
+  </pre>
 <br/>
 
   
