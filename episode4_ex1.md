@@ -28,10 +28,10 @@ Solution
 
 Use negative indices to count elements from the end of a container (such as list or string):
 
-  <code>
+  <pre>
 string_for_slicing[-4:]
 list_for_slicing[-4:]
-  </code>
+  </pre>
 </details>
 
 [Episode 4 exercise 2](episode4_ex2.md)
