@@ -24,6 +24,7 @@ for filename in glob.glob('data/gapminder_gdp*.csv'):
     dataframe.mean().plot(ax=ax, label=region)
 plt.legend()
 plt.show()
+
 </pre>
 
 </details>
