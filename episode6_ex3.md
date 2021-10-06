@@ -8,7 +8,8 @@ Write a program that reads in the regional data sets and plots the average GDP p
   </summary>
 
   This solution builds a useful legend by using the string <code>split</code> method to extract the <code>region</code> from the path <code>data/gapminder_gdp_a_specific_region.csv</code>.
-
+<hr/>
+  
   <pre>
 import glob
 import pandas as pd
