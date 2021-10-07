@@ -4,9 +4,9 @@
 
 According to Wikipedia:
 
-In mathematics, a polynomial is an expression consisting of indeterminates (also called variables) and coefficients, that involves only the operations of addition, subtraction, multiplication, and non-negative integer exponentiation of variables. An example of a polynomial of a single indeterminate x is 3x<sup>3</sup> + x<sup>2</sup> − 4x + 7. 
+In mathematics, a polynomial is an expression consisting of indeterminates (also called variables) and coefficients, that involves only the operations of addition, subtraction, multiplication, and non-negative integer exponentiation of variables. An example of a polynomial of a single indeterminate x is <code>3x<sup>3</sup> + x<sup>2</sup> − 4x + 7</code>. 
 
-For the non-mathy people (like me who need detail): 3x<sup>3</sup> + x<sup>2</sup> − 4x<sup>1</sup> + 7x<sup>0</sup>. Mathematicians know that <code>x<sup>1</sup> = x</code> (pronounced as x to the power of 1) and <code>x<sup>0</sup> = 1</code> (pronounced as x to the power of 0) which is why they shorten it to the expression as given in the first instance. The 1 and the 0 (the power to which the x is raised) is called the exponent.
+For the non-mathy people (like me who need detail): <code>3x<sup>3</sup> + x<sup>2</sup> − 4x<sup>1</sup> + 7x<sup>0</sup></code>. Mathematicians know that <code>x<sup>1</sup> = x</code> (pronounced as x to the power of 1) and <code>x<sup>0</sup> = 1</code> (pronounced as x to the power of 0) which is why they shorten it to the expression as given in the first instance. The 1 and the 0 (the power to which the x is raised) is called the exponent.
 
 The results of an equation like this can be drawn as a graph:
 
@@ -50,7 +50,7 @@ for idx, val in enumerate(a_list):
         <b>Solution<b>
     </summary>
 
-```python
+<pre>
 x=5
 coeffs = [2,4,3]
 y = 0;
@@ -58,7 +58,7 @@ for idx,val in enumerate(coeffs):
     y = y + coeffs[idx] * x ** idx
 print(y)
     
-```
+</pre>
             
 </details>
         
