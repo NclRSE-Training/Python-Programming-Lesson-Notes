@@ -38,3 +38,43 @@ patient_id = 'inflam_' + patient_id
 132.66
 inflam_001
 ```
+
+Notice the parenthesis - requied for a function
+
+Multiple things  with print function:
+```print(patient_id, 'weight in kilograms:', weight_kg)```
+Call a function inside another function:
+```python
+print(type(60.3))
+print(type(patient_id))
+```
+
+**Output:**
+```output
+<class 'float'>
+<class 'str'>
+```
+Moreover, we can do arithmetic with variables right inside the print function:
+```python
+print('weight in pounds:', 2.2 * weight_kg)
+```
+```output
+weight in pounds: 132.66
+```
+does not change value of weight_kg:
+```python
+print(weight_kg)
+```
+```output
+60.3
+```
+
+assign a new value:
+```python
+weight_kig = 65.00
+print('weight in kilograms is now:', weight_kg)
+```
+
+```output
+weight in kilograms is now 65.0
+```
