@@ -13,7 +13,7 @@ print(third, fourth)
         Solution
   </summary>
   
-**Output**
+  <b>Output:</b>
   
   <pre>
 Hopper Grace
