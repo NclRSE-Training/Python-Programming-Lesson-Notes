@@ -22,9 +22,9 @@ type(distance)
 
   <b>Output:</b>
   <pre>
-<class 'str'>
-<class 'int'>
-<class 'float'>
+&lt;class 'str'&gt;
+&lt;class 'int'&gt;
+&lt;class 'float'&gt;
 </pre>
 
 </details>
