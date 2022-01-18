@@ -27,4 +27,4 @@ type(distance)
 <class 'float'>
 </pre>
 
-<details>
+</details>
