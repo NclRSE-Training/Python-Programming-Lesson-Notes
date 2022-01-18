@@ -13,7 +13,7 @@ age = age - 20
 <details>
   <summary>
     Solution
-    </summary
+  </summary>
     
 **Output**
     
