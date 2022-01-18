@@ -22,3 +22,4 @@ plt.xticks(rotation=90)
 
 ![Minima Maxima Solution](https://nclrse-training.github.io/python-novice/fig/9_minima_maxima_solution.png)
 
+[Episode 3 Exercise 2](episode3_ex2.md)
