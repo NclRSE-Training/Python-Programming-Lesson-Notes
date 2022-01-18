@@ -63,3 +63,5 @@ print(y)
 </details>
         
 What would be the advantage of using a for-loop?
+
+[Episode 6 Exercise 1](episode6_ex1.md)
