@@ -135,3 +135,4 @@ data.iloc[:, col1_index:col2_index].loc["row1":"row2"]
 
 ```
 
+[Episode 3 Exercise 1](episode3_ex1.md)
