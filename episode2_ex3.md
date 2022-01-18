@@ -1,0 +1,40 @@
+## Extent of Slicing
+
+1. Do the two statements below produce the same output?
+1. Based on this, what rule governs what is included (or not) in numerical slices and named slices in Pandas?
+
+```python
+print(df.iloc[0:2, 0:2])
+print(df.loc['Albania':'Belgium', 'gdpPercap_1952':'gdpPercap_1962'])
+```
+
+<details>
+  <summary>
+Solution
+  </summary>
+
+No, they do not produce the same output! The output of the first statement is:
+
+  <pre>
+  gdpPercap_1952  gdpPercap_1957
+country                                
+Albania     1601.056136     1942.284244
+Austria     6137.076492     8842.598030
+</pre>
+  
+The second statement gives:
+
+  <pre>
+  gdpPercap_1952  gdpPercap_1957  gdpPercap_1962
+country                                                
+Albania     1601.056136     1942.284244     2312.888958
+Austria     6137.076492     8842.598030    10750.721110
+Belgium     8343.105127     9714.960623    10991.206760
+</pre>
+
+Clearly, the second statement produces an additional column and an additional row compared to the first statement.<br/>
+What conclusion can we draw? We see that a numerical slice, 0:2, <i>omits</i> the final index (i.e. index 2) in the range provided, while a named slice, ‘gdpPercap_1952’:’gdpPercap_1962’, <i>includes</i> the final element.
+
+  </details>
+  
+[Episode 2 Exercise 4](episode2_ex4.md)
