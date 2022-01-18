@@ -14,7 +14,8 @@ print(third, fourth)
   </summary>
   
 **Output**
+  
   <pre>
-        Hopper Grace
+Hopper Grace
 </pre>
   </details>
