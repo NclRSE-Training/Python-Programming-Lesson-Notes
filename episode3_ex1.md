@@ -1,0 +1,13 @@
+## Minima and Maxima
+
+Fill in the blanks below to plot the minimum GDP per capita over time for all the countries in Europe. Modify it again to plot the maximum GDP per capita over time for Europe.
+
+```python
+data_europe = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')
+data_europe.____.plot(label='min')
+data_europe.____
+plt.legend(loc='best')
+plt.xticks(rotation=90)
+```
+
+[Episode 3 Exercise 1 Solution](episode3_ex1_sol.md)
