@@ -21,7 +21,7 @@ The technical term for this is operator overloading: a single operator, like ```
 Solution
 </summary>
 
-The multiplication operator ```*``` used on a list replicates elements of the list and concatenates them together:
+  The multiplication operator <code>*</code> used on a list replicates elements of the list and concatenates them together:
 <br/>
 <pre>
 [2, 4, 6, 8, 10, 2, 4, 6, 8, 10]
