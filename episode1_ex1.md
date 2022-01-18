@@ -15,7 +15,7 @@ age = age - 20
     Solution
   </summary>
     
-**Output**
+  <b>Output</b>
     
     <pre>
 `mass` holds a value of 47.5, `age` does not exist
