@@ -19,3 +19,5 @@ print(third, fourth)
 Hopper Grace
 </pre>
   </details>
+
+[Episode 1 Exercise 3](episode1_ex3.md)
