@@ -46,9 +46,9 @@ for idx, val in enumerate(a_list):
 
 
 <details>
-    <summary>
-        <b>Solution<b>
-    </summary>
+<summary>
+   Solution
+</summary>
 
 <pre>
 x=5
