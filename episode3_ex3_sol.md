@@ -24,4 +24,4 @@ x and y - A column name or index that determines what data will be placed on the
 
 s - Details for this can be found in the documentation of plt.scatter. A single number or one value for each data point. Determines the size of the plotted points.
 
-[Episode 4 Exercise 1](episode4_ex1.md)
+[Episode 4 Lists](episode4_lists.md)
