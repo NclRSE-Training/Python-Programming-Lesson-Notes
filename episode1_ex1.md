@@ -18,8 +18,8 @@ age = age - 20
   <b>Output</b>
     
     <pre>
-`mass` holds a value of 47.5, `age` does not exist
-`mass` still holds a value of 47.5, `age` holds a value of 122
+`mass` holds a value of 47.65, `age` does not exist
+`mass` still holds a value of 47.65, `age` holds a value of 122
 `mass` now has a value of 95.0, `age`'s value is still 122
 `mass` still has a value of 95.0, `age` now holds 102
 </pre>
