@@ -29,7 +29,7 @@ then we can define it in Python as follows:
 ```python
 x = 5
 coefs = [2, 4, 3]
-y = coefs[2] * x**2 + coefs[1] * x**1 + coefs[0] * x**0
+y = coefs[0] * x**2 + coefs[1] * x**1 + coefs[2] * x**0
 print(y)
 ```
 
