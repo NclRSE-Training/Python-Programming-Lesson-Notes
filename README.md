@@ -5,9 +5,9 @@ Work on the gh_pages branch for pages to be rendered as a website.
 ## NB change to schedule September 2024:  
 During the ‘Programming with Python’ workshop, we always skip the last episode, ‘Errors and Exceptions,’ and cover ‘Making Choices’ after the break.  Also extend timings to make it last 9-5pm
 
-9-9:30 Python Fundamentals
-9:30-10:30 Analyzing Data
-10:30-10:45 BREAK
+9-9:30 Python Fundamentals  
+9:30-10:30 Analyzing Data  
+10:30-10:45 BREAK  
 10:45-11:15 Visualizing Data
 11:15-12:00 Storing Multiple Values in Lists
 12:00-13:00 LUNCH
